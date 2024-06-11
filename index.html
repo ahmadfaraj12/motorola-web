@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motorola website</title>
+    <link rel="icon" href="data:image/jpeg;base64,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">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="responsive-nav-parent">
+            <div class="responsive-nav">
+                <div class="responsive-left">
+                    <img src="./menu img.png" alt="">
+                    <img src="https://brmotorolanew.vtexassets.com/arquivos/c-rd-motorola@2x.png?v=637459707056400000"
+                        alt="">
+                </div>
+                <div class="responsive-right">
+                    <img src="https://motorolaimgrepo.vtexassets.com/arquivos/menu-header-newsletter-icon.png" alt="">
+                    <img src="https://motorolaimgrepo.vtexassets.com/arquivos/menu-header-support-icon.png" alt="">
+                    <img src="https://motorolaimgrepo.vtexassets.com/arquivos/menu-header-user-profile-icon.png" alt="">
+                    <img src="./right ul li img.png" alt="">
+                </div>
+            </div>
+            <div class="responsive-nav-2">
+                <input type="text" placeholder="What are you looking for?">
+               
+            </div>
+            
+        </div>
+        
+        <div class="nav">
+            <div class="nav-1">
+                <img src="https://brmotorolanew.vtexassets.com/arquivos/c-rd-motorola@2x.png?v=637459707056400000"
+                    alt="">
+                <input type="text" placeholder="What are you looking for?">
+                <ul>
+                    <li> <img src="https://motorolaimgrepo.vtexassets.com/arquivos/menu-header-newsletter-icon.png"
+                            alt="">Subscribe</li>
+                    <li> <img src="https://motorolaimgrepo.vtexassets.com/arquivos/menu-header-support-icon.png"
+                            alt="">Support</li>
+                    <li> <img src="https://motorolaimgrepo.vtexassets.com/arquivos/menu-header-user-profile-icon.png"
+                            alt="">hello <br> login</li>
+                    <li> <img src="./right ul li img.png" alt="">Cart</li>
+                </ul>
+            </div>
+            <div class="nav-2">
+                <div class="menu">
+                    <img src="./menu img.png" alt="">
+                    <h5>menu</h5>
+                </div>
+                <ul>
+                    <li>phones <i class="fa-solid fa-angle-down" style="color: black;"></i></li>
+                    <li>Ear Buds <i class="fa-solid fa-angle-down" style="color: black;"></i></li>
+                    <li>Tablets <i class="fa-solid fa-angle-down" style="color: black;"></i></li>
+                    <li>Smart Tv& Audio <i class="fa-solid fa-angle-down" style="color: black;"></i></li>
+                    <li>Smart Appliances <i class="fa-solid fa-angle-down" style="color: black;"></i></li>
+                    <li>Compare </li>
+                    <li>blog hello<span style="color: black; font-weight: 600;">moto</span></li>
+                </ul>
+                <div class="free">
+                    <p>Free Shiping*</p>
+                    <p>Fast Delivery*</p>
+                </div>
+
+            </div>
+        </div>
+        
+       
+        <!-- nav end -->
+        <div class="feedback">
+            feedback
+        </div>
+
+
+        <div class="section-1">
+
+            <div class="left-part">
+                <img src="./moto logo 5g.png" alt="">
+                <p>#FastNWow </p>
+                <p>Segment's <span>Fastest^5G</span> with <span>Snapdragon 695</span></p>
+                <h5>Starting at 9,999*</h5>
+                <h6>Within Motorola Portfolio | Source Techarc India'Best 5G Smartphones Reports</h6>
+            </div>
+            <div class="right-part">
+                <img src="./right part img.png" alt="">
+            </div>
+
+        </div>
+        <!-- section-1 end -->
+        <div class="fixed-circle">
+            <i class="fa-solid fa-angle-up fa-xl" style="color: #ffffff;"></i>
+        </div>
+
+        <div class="five-box">
+            <div class="boxx" style="background-color: #C9C9C9;">
+                <h3 style="color: white;">5G</h3>
+            </div>
+            <div class="boxx">
+                <h3>Premium</h3>
+            </div>
+            <div class="boxx">
+                <h3>Newest</h3>
+            </div>
+            <div class="boxx">
+                <h3>Bestseller</h3>
+            </div>
+            <div class="boxx">
+                <h3>Best Deals</h3>
+            </div>
+
+        </div>
+        <!-- five box end -->
+        <div class="three-card">
+            <div class="cardd">
+                <h1>motorola edge 50 pro</h1>
+                <h4>MRP <del><i class="fa-solid fa-indian-rupee-sign"
+                            style="color: #00060f;"></i>36,999.00</del>(inclusive of all texes) </h4>
+                <h3><i class="fa-solid fa-indian-rupee-sign" style="color: #00060f;"></i>30,999.00</h3>
+                <button>Shop now</button>
+                <img src="https://motorolain.vtexassets.com/arquivos/ids/158832/motorola-edge-50-pro-PDP-ecomm-render-color1-9-qod2vyhl.png?v=638476331193030000"
+                    alt="">
+            </div>
+            <div class="cardd">
+                <h1>motorola edge 50 pro</h1>
+                <h4>MRP <del><i class="fa-solid fa-indian-rupee-sign"
+                            style="color: #00060f;"></i>36,999.00</del>(inclusive of all texes) </h4>
+                <h3><i class="fa-solid fa-indian-rupee-sign" style="color: #00060f;"></i>30,999.00</h3>
+                <button>Shop now</button>
+                <img src="https://motorolain.vtexassets.com/arquivos/ids/158633/peach1.png?v=638380589694530000" alt="">
+            </div>
+            <div class="cardd">
+                <h1>motorola edge 50 pro</h1>
+                <h4>MRP <del><i class="fa-solid fa-indian-rupee-sign"
+                            style="color: #00060f;"></i>36,999.00</del>(inclusive of all texes) </h4>
+                <h3><i class="fa-solid fa-indian-rupee-sign" style="color: #00060f;"></i>30,999.00</h3>
+                <button>Shop now</button>
+                <img src="https://motorolain.vtexassets.com/arquivos/ids/158558/razr40_Grape.png?v=638309916113070000"
+                    alt="">
+            </div>
+
+        </div>
+
+        <!-- three card end -->
+        <div class="black-img">
+            <div class="left-img">
+                <img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/766a3297-c51a-4485-8f49-8a473cf4c7d6___a13a3612b4f84a13e7fa4e52c1d17230.jpg"
+                    alt="">
+            </div>
+            <div class="right-img">
+                <img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/7d213632-b607-498c-8d7e-75d07327b353___363c993e847b1c7eb050da30dcddbb6c.jpg"
+                    alt="">
+            </div>
+
+        </div>
+        <!-- black img end -->
+        <div class="tranding-parent">
+            <h1>Tranding Now</h1>
+
+            <div class="tranding-section">
+
+                <div class="tranding-card">
+
+                    <img src="https://motorolain.vtexassets.com/arquivos/ids/158832-500-auto?v=638476331193030000&width=500&height=auto&aspect=true"
+                        alt="">
+                    <span>
+                        <div class="circle"> </div>
+                        <div class="circle-2" style="width: 17px; height: 17px; border-radius: 50%;
+          border: 1px solid rgb(223, 217, 217);"></div>
+                    </span>
+
+                    <h3>motorola edge 50 pro</h3>
+                    <h6>MRP <del><i class="fa-solid fa-indian-rupee-sign"
+                                style="color: #bfc1c4;"></i>36,999.00</del>(Inclusive of <br> all texas)</h6>
+                    <h5><i class="fa-solid fa-indian-rupee-sign" style="color: #00040a;"></i>31,999.00</h5>
+
+
+                </div>
+                <div class="tranding-card">
+                    <img src="https://motorolain.vtexassets.com/arquivos/ids/158633-500-auto?v=638380589694530000&width=500&height=auto&aspect=true"
+                        alt="">
+
+
+                    <span>
+                        <div class="circle"> </div>
+                        <div class="circle-2"
+                            style="width: 17px; height: 17px; border-radius: 50%; background-color: black;"></div>
+                    </span>
+
+                    <h3>motorola razr 40 ultra</h3>
+                    <h6>MRP <del><i class="fa-solid fa-indian-rupee-sign"
+                                style="color: #bfc1c4;"></i>1,19,999.00</del>(Inclusive of <br> all texas)</h6>
+                    <h5><i class="fa-solid fa-indian-rupee-sign" style="color: #00040a;"></i>69,999.00</h5>
+
+
+                </div>
+
+                <div class="tranding-card">
+
+                    <img src="https://motorolain.vtexassets.com/arquivos/ids/158558-500-auto?v=638309916113070000&width=500&height=auto&aspect=true"
+                        alt="">
+                    <span>
+                        <div class="circle" style="border: 1px solid rgb(81, 184, 192); background-color: #8A6AA1;">
+                        </div>
+
+                    </span>
+
+                    <h3>motorola razr 40</h3>
+                    <h6>MRP <del><i class="fa-solid fa-indian-rupee-sign"
+                                style="color: #bfc1c4;"></i>99,999.00</del>(Inclusive of <br> all texas)</h6>
+                    <h5><i class="fa-solid fa-indian-rupee-sign" style="color: #00040a;"></i>44,999.00</h5>
+
+
+                </div>
+
+                <div class="tranding-card">
+
+                    <img src="https://motorolain.vtexassets.com/arquivos/ids/158639-500-auto?v=638380598194100000&width=500&height=auto&aspect=true"
+                        alt="">
+                    <span>
+                        <div class="circle"> </div>
+                        <div class="circle" style="border: 1px solid rgb(240, 229, 229)"> </div>
+                        <div class="circle" style="border: 1px solid rgb(242, 232, 232)"> </div>
+
+                        <div class="circle-2" style="width: 17px; height: 17px; border-radius: 50%;
+          border: 1px solid rgb(244, 230, 230);"></div>
+                    </span>
+
+                    <h3>motorola edge 40 neo</h3>
+                    <h6>MRP <del><i class="fa-solid fa-indian-rupee-sign"
+                                style="color: #bfc1c4;"></i>27,999.00</del>(Inclusive of <br> all texas)</h6>
+                    <h5><i class="fa-solid fa-indian-rupee-sign" style="color: #00040a;"></i>22,999.00</h5>
+
+
+                </div>
+                <div class="tranding-card">
+
+                    <img src="https://motorolain.vtexassets.com/arquivos/ids/158870-500-auto?v=638478968249030000&width=500&height=auto&aspect=true"
+                        alt="">
+                    <span>
+                        <div class="circle" style="background-color: #B5C4AD;"> </div>
+
+                    </span>
+
+                    <h3>motorola g64</h3>
+                    <h6>MRP <del><i class="fa-solid fa-indian-rupee-sign"
+                                style="color: #bfc1c4;"></i>17,999.00</del>(Inclusive of <br> all texas)</h6>
+                    <h5><i class="fa-solid fa-indian-rupee-sign" style="color: #00040a;"></i>14,999.00</h5>
+
+
+                </div>
+                <!-- tranding parent end -->
+
+
+
+            </div>
+        </div>
+        <div class="searching-section">
+            <h1>Searching for something different?</h1>
+            <input type="text" placeholder="Search">
+            <div class="three-button">
+                <button>Egde 30 ultra</buttton>
+                    <button>Edge 30 Fusion</buttton>
+                        <button>Edge 30 pro</buttton>
+            </div>
+            <div class="two-button">
+                <button>Edge 20 pro</button>
+                <button>Edge 20 Fusion</button>
+            </div>
+        </div>
+        <!-- searching-section end -->
+        <div class="dont-section">
+            <div class="dont-left">
+                <img src="./dont img.png" alt="">
+            </div>
+            <div class="dont-right">
+                <h1>Don't miss anything!</h1>
+                <span> <input type="text" placeholder="Enter your email address">
+                    <button>Subscribe now!</button></span>
+            </div>
+
+        </div>
+        <!-- dont-section end -->
+        <div class="footer">
+            <div class="footer-1">
+                <div class="logo-1">
+                    <h5>Official Website</h5>
+                    <img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/0cfc5c02-b6d9-4e9a-809b-cde2f47fba62___5d097caf957afdf206ee4f4d5a9339a7.svg"
+                        alt="">
+                </div>
+                <div class="logo-2">
+                    <h5>Follow us on social media</h5>
+                    <span>
+                        <i class="fa-brands fa-instagram fa-xl" style="color: #00040a;"></i>
+                        <i class="fa-brands fa-youtube fa-xl" style="color: #000714;"></i>
+                        <i class="fa-brands fa-twitter fa-xl" style="color: #00040a;"></i>
+                        <i class="fa-brands fa-facebook-f fa-xl" style="color: #00040a;"></i>
+                    </span>
+
+                </div>
+
+
+                <div class="logo-3">
+                    <img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/12b76161-c554-4c30-a9aa-4a591489f323___d75b567d3e5fdf54b9c281299c5e8dbf.png"
+                        alt="">
+                    <a href="">Change location</a>
+                </div>
+
+
+            </div>
+            <div class="footer-2">
+                <ul>
+                    <li>
+                        <h4>Products</h4>
+                    </li>
+                    <li>motorola razr family</li>
+                    <li>motorola edge family</li>
+                    <li>moto g family</li>
+                    <li>moto e family</li>
+                    <li>all Smartphones</li>
+
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Motorola Home</h4>
+                    </li>
+                    <li>Smart TVs</li>
+                    <li>Amphisoundx Home Theater Range</li>
+                    <li>All Accessories</li>
+                    <li>All Home</li>
+
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Support</h4>
+                    </li>
+                    <li>My Order</li>
+                    <li>Software Upgrades</li>
+                    <li>For all Products</li>
+                    <li>Contact Us</li>
+                    <li>Drivers</li>
+                    <li>Repair Status</li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>About us</h4>
+                    </li>
+                    <li>About motorola</li>
+                    <li>About Lenovo</li>
+                    <li>Term of sales</li>
+                    <li>Term of use</li>
+                    <li>Websites privacy</li>
+                    <li>Innovation</li>
+                    <li>Careers</li>
+                    <li>Product Privacy</li>
+                    <li>Product recycling programs</li>
+                    <li>Regulatory compliance</li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Safe website</h4>
+                    </li>
+                    <li><img src="https://motorolaimgrepo.vtexassets.com/arquivos/protection.png" alt=""></li>
+                </ul>
+            </div>
+            <div class="footer-3">
+                <p>© 2024 Motorola Mobility LLC. All Rights Reserved</p>
+                <p> pMOTOROLA, the Stylized M Logo, MOTO and the MOTO family of marks are trademarks of Motorola
+                    Trademark Holdings, LLC. LENOVO is a trademark of Lenovo. <br> All other trademarks are the property
+                    of their respective owners. © 2017 Motorola Mobility LLC.</p>
+                <p>All mobile phones are designed and manufactured by Motorola Mobility LLC, a wholly owned subsidiary
+                    of Lenovo.</p>
+            </div>
+
+
+            <div class="footer-4">
+                <h6>Powered by:</h6>
+                <img src="https://motorolaimgrepo.vtexassets.com/arquivos/vtex-logo.svg" alt="">
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+    
+</div>
+
+   
+</body>
+
+</html>
